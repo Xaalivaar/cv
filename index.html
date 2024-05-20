@@ -3,127 +3,323 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>⚡Xaalivaar's Personal Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+		crossorigin="anonymous">
+	<link href="./style.css" rel="stylesheet">
+	<title>Xaalivaar's Personal Site</title>
 </head>
 
 <body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#intro">&emsp;{KLB}&emsp;</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse px-4" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-link" href="#entrances">Qualified Exams</a>
+					<a class="nav-link" href="#education">Education</a>
+					<a class="nav-link" href="#acaproj">Academic Projects</a>
+					<a class="nav-link" href="#hobbies">Hobbies</a>
+				</div>
+			</div>
+		</div>
+	</nav>
 
-	<table cellspacing="20">
-		<tr>
-			<td>
-				<img src="https://vignette.wikia.nocookie.net/vagabond/images/9/96/04.png/revision/latest?cb=20200514175141"
-					alt="Image not available" height="200" width="180">
-				<!-- <img src="denshichiro.png" alt="Image not available"> -->
-			</td>
-			<td>
-				<h1>Xaalivaar</h1>
-				<p><em>Web dev noob,<br>unixporn enthusiast and,<br>the most <strong>professional
-							procrastinator</strong></em>
+	<section id="intro">
+		<div class="px-4 py-5 my-5 text-center">
+			<!-- brackets image -->
+			<svg xmlns="http://www.w3.org/2000/svg" width="72" height="57" fill="currentColor"
+				class="bi bi-braces" viewBox="0 0 16 16">
+				<path
+					d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6M13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6" />
+			</svg>
+			<h1 class="display-5 fw-bold text-body-emphasis">Kamal Lochan Baishya</h1>
+			<div class="col-lg-6 mx-auto">
+				<p class="lead mb-4">
+					<!-- github icon image -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+						fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+						<path
+							d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+					</svg>
+					<a href="https://github.com/Xaalivaar">Xaalivaar</a>
+
 				</p>
-				<p>I rice linux, listen to music and play games all day long.</p>
+				<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+					<a href="#entrances"><button type="button"
+							class="btn btn-outline-secondary btn-lg px-4">Qualified
+							Exams</button></a>
+					<a href="#education"><button type="button"
+							class="btn btn-outline-secondary btn-lg px-4">Education</button></a>
+					<a href="#acaproj"><button type="button"
+							class="btn btn-outline-secondary btn-lg px-4">Academic
+							Projects</button></a>
+					<a href="#hobbies"><button type="button"
+							class="btn btn-outline-secondary btn-lg px-4">Hobbies</button></a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-			</td>
-		</tr>
-	</table>
-	<hr>
+	<div class="b-example-divider"></div>
 
-	<h3>Education</h3>
-	<ul>
-		<li>Computer science and Engineering
-			<ul>
-				<li>From Regional Institute of Science and Technology, affiliated to NEHU</li>
-			</ul>
-		</li>
-		<li>Schooling
-			<ul>
-				<li>Army Public School, Narangi</li>
-			</ul>
-		</li>
-		<li>Music
-			<ul>
-				<li>Tabla, Bhatkhande School of Music, Punjab Gharana, Madhyama</li>
-			</ul>
-			<ul>
-				<li>Guitar, Royal School of Music, Grade 1</li>
-			</ul>
-		</li>
-		<li>Fine arts
-			<ul>
-				<li>Aarohan, 4 year certification course</li>
-			</ul>
-		</li>
-	</ul>
-	<hr>
+	<section id="entrances">
+		<div class="container px-4 py-5 text-center" id="featured-3">
+			<h2 class="pb-2 border-bottom">Qualified Examinations</h2>
+			<div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+				<div class="feature col py-4">
+					<div class="card-body">
+						<h5 class="card-title">Graduate Aptitude Test in Engineering, 2024</h5>
+						<hr>
+						<li>Marks: 32.18/100</li>
+						<li>Score: 400</li>
+						<li>Percentile: 90.19</li>
+					</div>
+				</div>
+				<div class="feature col py-4">
+					<div class="card-body">
+						<h5 class="card-title">Common Aptitude Test, 2023</h5>
+						<hr>
+						<li>Percentile: 76.83</li>
+					</div>
+				</div>
+	</section>
 
-	<h3>Projects</h3>
-	<table cellspacing="15">
-		<thead>
-			<tr>
-				<th><u>Project link</u></th>
-				<th><u>Project description</u></th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>inthefuture.com/bspMXiso</td>
-				<td>An MX linux iso centered around terminal with bspwm as twm</td>
-			</tr>
-			<tr>
-				<td>inthefuture.com/cincproj</td>
-				<td>An ensemble approach to analysis of CinC 2016 dataset</td>
-			</tr>
-			<tr>
-				<td>inthefuture.com/multikano</td>
-				<td>Kano's model implementation using scikit tools</td>
-			</tr>
-		</tbody>
-		<tfoot></tfoot>
-	</table>
-	<hr>
+	<div class="b-example-divider"></div>
 
-	<h3>Skills</h3>
-	<table cellspacing="15">
-		<tr>
-			<td>
-				<table>
-					<tr>
-						<td>Theoretical concepts</td>
-						<td>⭐⭐☆☆☆</td>
-					</tr>
-					<tr>
-						<td>Core utils</td>
-						<td>⭐☆☆☆☆</td>
-					</tr>
-					<tr>
-						<td>Analytic aptitude</td>
-						<td>⭐⭐☆☆☆</td>
-					</tr>
-				</table>
-			</td>
-			<td>
-				<table>
-					<tr>
-						<td>DE customisation</td>
-						<td>⭐☆☆☆☆</td>
-					</tr>
-					<tr>
-						<td>Music production</td>
-						<td>⭐☆☆☆☆</td>
-					</tr>
-			</td>
-				</table>
-		</tr>
-	</table>
-	<hr>
+	<section id="education">
+		<div class="container py-5 my-5">
+			<h2>Education</h2>
+			<hr>
+			<div>
+				<ul title="B.Tech, Computer Science and Engineering, 2022" class="py-3">
+					<h3>B.Tech, Computer Science and Engineering, 2022</h3>
+					<li>From Regional Institute of Science and Technology, Meghalaya</li>
+					<li>Affiliated to North Eastern Hill University</li>
+					<li>CGPA – 7.83</li>
+				</ul>
+				<ul title="Class 12th, Science, 2018" class="py-3">
+					<h3>Class 12th, Science, 2018</h3>
+					<li>From Army Public School, Narangi</li>
+					<li>Affiliated to CBSE</li>
+					<li>Aggregate - 66%</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
+	<div class="b-example-divider"></div>
 
-	<a href="hobbies.html">
-		<h3>Hobbies</h3>
-	</a>
-	<a href="contact.html">
-		<h3>Contact me</h3>
-	</a>
+	<section id="acaproj" class="py-5">
+		<div class="container my-5">
+			<h2>Academic Projects</h2>
+			<hr class="py-2">
+			<div class="row py-2">
+				<div class="col-lg-8">
+					<h3 class="my-3">Kano’s Modelling of Product Features of E-Readers using
+						multiple SVM’s</h3>
+					<li>Reviews were collected in a .csv file with help of API calls from Amazon
+					</li>
+					<li>Sentiment analysis (using a scikit model) scores of the reviews were plotted
+						against star ratings for every
+						product feature (using the svm’s) in analysis and the means were used to
+						classify the quadrant for each
+						feature</li>
+				</div>
+				<div class="col">
+					<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.teahub.io%2Fphotos%2Ffull%2F21-216425_2048x1152-python-programming-python-az-python-for.jpg&f=1&nofb=1&ipt=307e17792009d8f5f4883a9fe56a6caccd5da96f4cba5d83e715ca86f1d79b1f&ipo=images"
+						alt="Python" width="400px" style="border-radius: 5%;"
+						class="my-4 img-fluid">
+				</div>
+			</div>
+			<div class="row py-2">
+				<div class="col-lg-8">
+					<h3 class="my-3">CHF Detection using an ensemble of ML/DL models</h3>
+					<li>Data collected from CinC (Computation in Cardiology) 2016 database in form
+						of heartbeat recording in .wav
+						file and its classification into healthy and CHF prone
+					</li>
+					<li>An ML ensemble used to classify as per some extracted features and a CNN+RNN
+						neural network on the
+						frequency domain and their aggregates used for overall classification
+					</li>
+				</div>
+				<div class="col">
+					<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.teahub.io%2Fphotos%2Ffull%2F21-216425_2048x1152-python-programming-python-az-python-for.jpg&f=1&nofb=1&ipt=307e17792009d8f5f4883a9fe56a6caccd5da96f4cba5d83e715ca86f1d79b1f&ipo=images"
+						alt="Python" width="400px" style="border-radius: 5%;"
+						class="my-4 img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<div class="b-example-divider"></div>
+
+	<section id="hobbies" class="py-5">
+		<div class="container py-3 my-5">
+			<h2>Hobbies</h2>
+			<hr class="py-2">
+			<div class="accordion py-4" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne" aria-expanded="true"
+							aria-controls="collapseOne">
+							Unix/Linux DE customisation
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body row">
+							<p class="col-lg-7">A custom tailored desktop environment can
+								provide numerous
+								benefits. It can increase productivity by improving
+								workflow and efficiency, enhance the user experience
+								through a more intuitive and enjoyable interface, help
+								keep the digital workspace organized, minimize
+								distractions through reduced visual clutter, and cater
+								to individual needs and preferences to improve
+								accessibility.
+							</p>
+							<img src="https://preview.redd.it/sgjgxv5ntit01.png?width=640&crop=smart&auto=webp&s=ef4b11ab1044089e2c500d012bc4a2a035cda13d"
+								alt="unix" class="img-fluid col">
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="true"
+							aria-controls="collapseTwo">
+							PC gaming
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body row">
+							<p class="col-lg-7">PC gaming can offer some educational
+								benefits compared to
+								other platforms. PCs often provide more flexibility and
+								customization options, allowing users to explore and
+								learn about hardware, software, and game development.
+								Many PC games also incorporate problem-solving, critical
+								thinking, and strategic planning skills that can be
+								valuable for learning.
+
+								Additionally, the PC gaming community tends to be more
+								active in creating and sharing educational content, such
+								as tutorials, mods, and user-generated content. This can
+								expose players to a wider range of learning
+								opportunities beyond just the games themselves.
+							</p>
+							<img src="https://cdn1.dotesports.com/wp-content/uploads/2020/03/23123938/oman.jpg"
+								alt="pcgame" class="img-fluid col">
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="true"
+							aria-controls="collapseThree">
+							Listeing to Music
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body row">
+							<p class="col-lg-7">Music has the power to evoke emotions,
+								inspire creativity, and enrich the human experience. The
+								joy of music
+								lies in its ability to touch the deepest parts of our
+								being, providing a universal form of
+								expression other than mathematics and a source of
+								profound pleasure and fulfillment. We can enhance the
+								experience even further by leveraging the various audio
+								processing utilities and psychoacoustics. Unbound by
+								language
+								barriers, we tap into
+								the rhythms of the hearts of people across the world.
+							</p>
+							<img src="https://alchetron.com/cdn/london-symphony-orchestra-48e5c83c-53aa-4547-8ac8-d225f207b17-resize-750.jpeg"
+								alt="pcgame" class="img-fluid col">
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFour" aria-expanded="true"
+							aria-controls="collapseFour">
+							Reading books, manga, comics, etc
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body row">
+							<span class="col-lg-7">There is nothing quite like the pure
+								bliss
+								of losing yourself in the pages of a captivating book.
+								The way the words and illustrations dance across the
+								page, painting vivid
+								scenes that come alive in your mind - it's a magical
+								experience. Following are some recommendations :
+								<ul>
+									<li>Vagabond by Inoue Takehiko</li>
+									<li>Atomic Habits by James Clear</li>
+									<li>Ghost in The Shell by Masamune Shiro</li>
+									<li>Metamorphosis by Franz Kafka</li>
+									<li>Berserk by Kentaro Miura</li>
+									<li>Brief History of Time by Stephen Hawking
+									</li>
+									<li>Akira by Katsuhiro Otomo</li>
+									<li>Cyberpunk TTRPG by Mike Pondsmith</li>
+									<li>Blame by Tsutomu Nihei</li>
+									<li>Ignited Minds by APJ Abdul Kalam</li>
+									<li>Death Note by Ohba Tsugumi and Obata Takeshi
+									</li>
+									<li>Crime and Punishment by Fyodor Dostoevsky
+									</li>
+									<li>Three days of Happiness by Miaki Sugaru and
+										Taguchi Shoichi</li>
+									<li>The Code Book by Simon Singh</li>
+									<li>Horrible Science by Nick Arnold</li>
+									<li>One piece by Oda Eichiro</li>
+								</ul>
+							</span>
+							<img src="https://www.teahub.io/photos/full/185-1851646_vagabond-manga.jpg"
+								alt="pcgame" class="img-fluid col">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="b-example-divider"></div>
+
+	<section id="footer">
+		<div class=" card">
+		<div class="card-header">
+			Quote
+		</div>
+		<div class="card-body">
+			<blockquote class="blockquote mb-0">
+				<p>Salute your Duty</p>
+				<footer class="blockquote-footer">APJ Abdul Kalam<cite title="Kalam">Kalam</cite></footer>
+			</blockquote>
+		</div>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>

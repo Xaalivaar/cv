@@ -1,0 +1,46 @@
+li {
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+.cardcase {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.b-example-divider {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-bottom-color: rgba(0, 0, 0, 0.15);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgba(0, 0, 0, 0.15);
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-color: rgba(0, 0, 0, 0.15);
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-color: rgba(0, 0, 0, 0.15);
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px 0px inset, rgba(0, 0, 0, 0.15) 0px 2px 8px 0px inset;
+	box-sizing: border-box;
+	color: rgb(222, 226, 230);
+	font-size: 16px;
+	font-weight: 400;
+	height: 48px;
+	line-height: 24px;
+	text-align: start;
+	width: 1886px;
+}
+
+.col-lg-8 > li {
+	padding-bottom: 15px;
+}
+

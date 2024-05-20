@@ -1,3 +1,3 @@
-# practice_cv
+# CV
 
-This is a practice cv.
+A simple static portfolio website
